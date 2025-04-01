@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1> 1- Crie uma lista de compras utilizando ul e li (Exemplo: arroz, feijão, leite, pão).</h1>
+        <ul>
+            <li>Arozz</li>
+            <li>feijao</li>
+            <li>leite</li>
+            <li>pao</li>
+        </ul>
+
+    <h1>2. Crie uma lista ordenada ol e uma lista não ordenada ul com pelo menos três itens em cada.
+    </h1>
+
+    <ul>
+        <li>Batata</li>
+        <li>queijo</li>
+        <li>tatu</li>
+        <li>copo</li>
+    </ul>
+
+    <ol>
+        <li>caju</li>
+        <li>fuba</li>
+        <li>footbol</li>
+        <li>argentina</li>
+    </ol>
+
+    <h1>3. Crie uma tabela para exibir uma grade de horários de aula com pelo menos 3 colunas e 5 linhas.</h1>
+
+    <table>
+      <thead>
+        <tr>
+            <th><b>Horario 1</b></th>
+            <th><b>Horario 2</b></th>
+            <th><b>Horario 3</b></th>
+        </tr>
+      </thead>
+      <tbody>
+        <td>Eng. de software |</td>
+        <td>Eng. de software |</td>
+        <td>Eng. de software |</td>
+      </tbody>
+      <tbody>
+        <td>Front-End |</td>
+        <td>Front-End |</td>
+        <td>Front-End |</td>
+      </tbody>
+      <tbody>
+        <td>Oriet. obj |</td>
+        <td>Oriet. obj |</td>
+        <td>Oriet. obj |</td>
+      </tbody>
+      <tbody>
+        <td>Matematica|</td>
+        <td>Matematica|</td>
+        <td>Matematica|</td>
+      </tbody>
+      <tbody>
+        <td>Ment. criativa|</td>
+        <td>Ment. criativa|</td>
+        <td>Ment. criativa|</td>
+      </tbody>
+    </table>
+
+    <h1>4. Crie uma tabela que liste 3 produtos, seus preços e quantidade disponível no estoque.
+    </h1>
+
+<table>
+  <thead>
+    <tr>
+        <th><b>Produto</b></th>
+        <th><b>Preço</b></th>
+        <th><b>Estoque</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <td>Camiseta  |</td>
+    <td>129,90 |</td>
+    <td>250   |</td>
+  </tbody>
+  <tbody>
+    <td>Bermuda  |</td>
+    <td>159,90 |</td>
+    <td>122   |</td>
+  </tbody>
+  <tbody>
+    <td>Tenis  |</td>
+    <td>399,90 |</td>
+    <td>328   |</td>
+  </tbody>
+</table>
+
+<h1>5. Crie um formulário simples com campos para nome, e-mail e uma área de mensagem.</h1>
+
+<form>
+  <input type="text" placeholder="Nome"> 
+</form>
+<form>
+  <br>
+  <input type="text" placeholder="Email"> 
+</form>
+ <br>
+<form >
+  <textarea placeholder="Area Mensagem"></textarea>
+</form>
+
+<h1>6. Adicione um botão de envio ao formulário criado no exercício anterior.
+</h1>
+
+<form>
+  <input type="text" placeholder="Nome"> <button>Enviar</button>
+</form>
+<form>
+  <br>
+  <input type="text" placeholder="Email"> <button>Enviar</button>
+</form>
+<br>
+<form >
+   <textarea placeholder="Area Mensagem"></textarea>
+</form> 
+<button>Enviar</button>
+
+<h1>7. Crie um campo de senha (&lt;input type="password"&gt;) em um formulário.
+</h1>
+
+<form>
+  <input type="text" placeholder="Nome">
+  <input type="password" placeholder="Senha">
+  <button>Enviar</button>
+</form>
+
+<h1>8. Crie um formulário com um campo de seleção select para escolher um pais.
+</h1>
+
+<form>
+  <input type="text" placeholder="Nome">
+  <input type="password" placeholder="Senha">
+  <select name="" id="">
+    <option value="" selected>Selecione</option>
+    <option value="Brasil">Brasil</option>
+    <option value="Brasil">Argentina</option>
+    <option value="Brasil">Alemanha</option>
+    <option value="Brasil">Russia</option>
+  </select> 
+  <button>Enviar</button>
+</form>
+
+<h1>9. Crie um campo de seleção (radio button) para escolher entre "Masculino", "Feminino" e "Outro".</h1>
+<form action="">
+  <input type="radio" name="gen"> Masculino
+  <input type="radio" name="gen"> Feminino
+</form>
+
+<h1>Parte CSS abaixo</h1>
+
+
+<h1>Olà</h1>
+<h1>My names is Gustavo</h1>
+
+<p class="diferente">Este texto esta diferente </p>
+
+<div class="borda">
+    <h1>Este bloco possui borda</h1>
+</div>
+
+<h1>Titulo usando h1</h1>
+<h2>Titulo usando h2</h2>
+<h3>Titulo usando h1</h3>
+
+<h1 class="bold">Este texto esta em negrito</h1>
+
+<div class="pad">Esta div possui um padding </div>
+
+<p class="para">Esse paragrafo posui uma margem</p>
+
+<p class="redondo">Este paragrafo possui uma margem com bordas arredondadas</p>
+
+
+<form action="">
+  <label for="num1">Número 1: </label>
+  <input type="number" name="" id="num1">
+  <br>
+  <br>
+  <label for="num2">Número 2: </label>
+  <input type="number" name="" id="num2">
+  <br>
+  <button onclick="calcular()">Calcular</button>
+</form>
+
+
+<form action="">
+  <label for="dobro">Digite um valor: </label>
+  <input type="number" name="" id="dobro">
+  <br>
+  <button onclick="dobrar()">Verificar</button>
+</form>
+
+
+<form action="">
+  <label for="convert">Digite a temperatura em Calsius: </label>
+  <input type="number" id="convert">
+  <br>
+  <button onclick="converter()">Calcular</button>
+</form>
+
+<br>
+<br>
+<form action="">
+  <label for="id1">Idade 1: </label>
+  <input type="number" name="" id="id1">
+  <br>
+  <br>
+  <label for="id2">Idade 2: </label>
+  <input type="number" name="" id="id2">
+  <br>
+  <br>
+  <button onclick="verificId()">Calcular</button>
+</form>
+
+<br><br>
+<form action="">
+  <label for="nume1">Numero 1: </label>
+  <input type="number" name="" id="nume1">
+  <br><br>
+  <label for="nume2">Numero 2: </label>
+  <input type="number" name="" id="nume2">
+  <br><br>
+  <label for="nume3">Numero 3: </label>
+  <input type="number" name="" id="nume3">
+  <br><br>
+  <button onclick="CalcuMai()">Calcular</button>
+</form>
+<br><br>
+
+<form action="">
+  <label for="umValor">Digite um valor maior que 10</label>
+  <input type="number" name="" id="umValor">
+  <br><br>
+  <button onclick="maiorque()">Verificar</button>
+</form>
+
+</body>
+</html>
